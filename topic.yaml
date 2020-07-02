@@ -1,0 +1,11 @@
+# Example
+apiVersion: kafkarator.nais.io/v1
+kind: Topic
+metadata:
+  name: my-topic
+  namespace: default
+spec:
+  name: my-topic
+  config:
+    this: string
+    that: number
